@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+img {
+    cursor: pointer;
+}
+
+nav {
+  background-color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+}
+
+nav ul li {
+  padding: 0 15px;
+}
+
+table {
+  border: 2px solid black;
+  font-size: 15px;
+}
+
+td,
+th {
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 28px;
+}
+
+.greetings {
+  margin: 0 auto;
+  width: 1000px;
+  padding: 20px;
+}
+
+.greetings h1 {
+  margin-bottom: 10px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 1000px;
+  padding: 20px;
+}
+
+.content p {
+  font-size: 16px;
+}
+
+.content h2 {
+  margin-bottom: 10px;
+}
+
+.Passwords {
+  margin: 0 auto;
+  width: 1000px;
+  padding: 20px;
+}
+
+.Passwords h2 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #333;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+
+.btnsm {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #333;
+}
+
+.alert{
+    display: none;
+}
